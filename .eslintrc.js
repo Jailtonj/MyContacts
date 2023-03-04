@@ -8,9 +8,11 @@ module.exports = {
   overrides: [
   ],
   parserOptions: {
-    ecmaVersion: 'latest',
+    ecmaVersion: 11,
   },
   rules: {
     'class-methods-use-this': 'off',
+    'consistent-return': 'off',
+    'no-promise-executor-return': 'off',
   },
 };
